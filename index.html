@@ -1,187 +1,314 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mis 15 | Jazmin</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- PRESENTACIÓN -->
     <section id="hero">
-        <div class="container text-center">
+      <div class="container text-center">
+        <h2
+          style="
+            font-size: 48px;
+            font-weight: bold;
+            color: #ff1493;
+            margin-bottom: 10px;
+          "
+        >
+          MIS 15
+        </h2>
 
-            <h2 style="font-size: 48px; font-weight: bold; color: #ff1493; margin-bottom: 10px;">MIS 15</h2>
+        <h1
+          style="
+            font-size: 72px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 30px;
+          "
+        >
+          Jazmin
+        </h1>
 
-            <h1 style="font-size: 72px; font-weight: bold; color: #333; margin-bottom: 30px;">Jazmin</h1>
-
-            <img src="img/jazmin.jpg" alt="Jazmin" style="max-width: 300px; border-radius: 15px; margin-bottom: 20px;">
-
-        </div>
+        <img
+          src="img/jazmin.jpg"
+          alt="Jazmin"
+          style="max-width: 300px; border-radius: 15px; margin-bottom: 20px"
+        />
+      </div>
     </section>
 
     <!-- CUENTA REGRESIVA -->
-    <section id="contador">
-        <div class="container text-center">
+    <!--<section id="contador">
+      <div class="container text-center">
+        <h2 style="font-size: 28px; margin-bottom: 30px">Faltan</h2>
 
-            <h2 style="font-size: 28px; margin-bottom: 30px;">Faltan</h2>
-
-            <div class="row justify-content-center">
-
-                <div class="col-md-2 col-6">
-                    <div id="dias" style="font-size: 48px; font-weight: bold; color: #ff1493;">00</div>
-                    <span style="font-size: 18px;">Días</span>
-                </div>
-
-                <div class="col-md-2 col-6">
-                    <div id="horas" style="font-size: 48px; font-weight: bold; color: #ff1493;">00</div>
-                    <span style="font-size: 18px;">Horas</span>
-                </div>
-
-                <div class="col-md-2 col-6">
-                    <div id="minutos" style="font-size: 48px; font-weight: bold; color: #ff1493;">00</div>
-                    <span style="font-size: 18px;">Minutos</span>
-                </div>
-
-                <div class="col-md-2 col-6">
-                    <div id="segundos" style="font-size: 48px; font-weight: bold; color: #ff1493;">00</div>
-                    <span style="font-size: 18px;">Segundos</span>
-                </div>
-
+        <div class="row justify-content-center">
+          <div class="col-md-2 col-6">
+            <div
+              id="dias"
+              style="font-size: 48px; font-weight: bold; color: #ff1493"
+            >
+              00
             </div>
+            <span style="font-size: 18px">Días</span>
+          </div>
 
+          <div class="col-md-2 col-6">
+            <div
+              id="horas"
+              style="font-size: 48px; font-weight: bold; color: #ff1493"
+            >
+              00
+            </div>
+            <span style="font-size: 18px">Horas</span>
+          </div>
+
+          <div class="col-md-2 col-6">
+            <div
+              id="minutos"
+              style="font-size: 48px; font-weight: bold; color: #ff1493"
+            >
+              00
+            </div>
+            <span style="font-size: 18px">Minutos</span>
+          </div>
+
+          <div class="col-md-2 col-6">
+            <div
+              id="segundos"
+              style="font-size: 48px; font-weight: bold; color: #ff1493"
+            >
+              00
+            </div>
+            <span style="font-size: 18px">Segundos</span>
+          </div>
         </div>
-    </section>
+      </div>
+    </section>-->
+
+    <!--<div class="row justify-content-center">
+  <div class="col-md-2 col-3">
+    <div id="dias" style="font-size: 48px; font-weight: bold; color: #ff1493;">00</div>
+    <span style="font-size: 18px">Días</span>
+  </div>
+
+  <div class="col-md-2 col-3">
+    <div id="horas" style="font-size: 48px; font-weight: bold; color: #ff1493;">00</div>
+    <span style="font-size: 18px">Horas</span>
+  </div>
+
+  <div class="col-md-2 col-3">
+    <div id="minutos" style="font-size: 48px; font-weight: bold; color: #ff1493;">00</div>
+    <span style="font-size: 18px">Minutos</span>
+  </div>
+
+  <div class="col-md-2 col-3">
+    <div id="segundos" style="font-size: 48px; font-weight: bold; color: #ff1493;">00</div>
+    <span style="font-size: 18px">Segundos</span>
+  </div>
+</div>-->
+
+<section id="contador">
+  <div class="contador-wrapper">
+    <div class="contador-item">
+      <div class="contador-numero" id="dias">00</div>
+      <div class="contador-label">Días</div>
+    </div>
+    <div class="contador-item">
+      <div class="contador-numero" id="horas">00</div>
+      <div class="contador-label">Horas</div>
+    </div>
+    <div class="contador-item">
+      <div class="contador-numero" id="minutos">00</div>
+      <div class="contador-label">Minutos</div>
+    </div>
+    <div class="contador-item">
+      <div class="contador-numero" id="segundos">00</div>
+      <div class="contador-label">Segundos</div>
+    </div>
+  </div>
+</section>
 
     <!-- FECHA Y HORA -->
     <section id="fecha-hora">
-        <div class="container text-center">
-
-            <div style="margin: 40px 0;">
-                <div style="font-size: 48px; margin-bottom: 15px;">📅</div>
-                <h3 style="font-size: 28px; font-weight: bold; color: #333; margin-bottom: 10px;">26 de Septiembre 2026</h3>
-                <p style="font-size: 20px; color: #666; margin: 0;">🕐 De 13:00 a 20:00 hs</p>
-            </div>
-
+      <div class="container text-center">
+        <div style="margin: 40px 0">
+          <div style="font-size: 48px; margin-bottom: 15px">📅</div>
+          <h3
+            style="
+              font-size: 28px;
+              font-weight: bold;
+              color: #333;
+              margin-bottom: 10px;
+            "
+          >
+            26 de Septiembre 2026
+          </h3>
+          <p style="font-size: 20px; color: #666; margin: 0">
+            🕐 De 13:00 a 20:00 hs
+          </p>
         </div>
+      </div>
     </section>
+
+
 
     <!-- UBICACIÓN -->
     <section id="ubicacion">
-        <div class="container text-center">
-
-            <div style="margin: 40px 0;">
-                <h3 style="font-size: 24px; margin-bottom: 15px;">📍 Ubicación</h3>
-                <p style="font-size: 18px; margin: 5px 0;">Clahe Eventos Lomas</p>
-                <p style="font-size: 16px; margin: 5px 0; color: #666;">Lomas de Zamora</p>
-                <a href="https://www.google.com/maps/place/Clahe+Eventos+Lomas/@-34.7925584,-58.4136537,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcd3b2d346cb75:0x17b84408f535bfaf!8m2!3d-34.7925584!4d-58.4136537!16s%2Fg%2F11yd6r85j0!18m1!1e1"
-                   target="_blank"
-                   style="display: inline-block; margin-top: 15px; padding: 12px 30px; background-color: #ff1493; color: white; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 16px;">
-                    🗺️ Ver en Mapa
-                </a>
-            </div>
-
+      <div class="container text-center">
+        <div style="margin: 40px 0">
+          <h3 style="font-size: 24px; margin-bottom: 15px">📍 Ubicación</h3>
+          <p style="font-size: 18px; margin: 5px 0">Clahe Eventos Lomas</p>
+          <p style="font-size: 16px; margin: 5px 0; color: #666">
+            Lomas de Zamora
+          </p>
+          <a
+            href="https://www.google.com/maps/place/Clahe+Eventos+Lomas/@-34.7925584,-58.4136537,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcd3b2d346cb75:0x17b84408f535bfaf!8m2!3d-34.7925584!4d-58.4136537!16s%2Fg%2F11yd6r85j0!18m1!1e1"
+            target="_blank"
+            style="
+              display: inline-block;
+              margin-top: 15px;
+              padding: 12px 30px;
+              background-color: #ff1493;
+              color: white;
+              border-radius: 25px;
+              text-decoration: none;
+              font-weight: bold;
+              font-size: 16px;
+            "
+          >
+            🗺️ Ver en Mapa
+          </a>
         </div>
+      </div>
     </section>
 
     <!-- DRESS CODE -->
     <section id="dress-code">
-        <div class="container text-center">
-
-            <div style="margin: 40px 0; padding: 20px; background-color: #fff0f5; border-radius: 15px;">
-                <h3 style="font-size: 24px; margin-bottom: 15px;"> Dress Code</h3>
-                <div 
-                    id="diamond-icon" 
-                    style="font-size: 48px; margin: 15px 0; cursor: pointer; transition: transform 0.3s ease, text-shadow 0.3s ease;"
-                    onmouseover="this.style.transform='scale(1.3) rotate(15deg)'; this.style.textShadow='0 0 20px rgba(255, 20, 147, 0.8)'"
-                    onmouseout="this.style.transform='scale(1) rotate(0deg)'; this.style.textShadow='none'"
-                >
-                    💎
-                </div>
-                <p style="font-size: 18px; color: #333; font-style: italic;">
-                    "El bordo y sus derivados se reserva para la cumpleañera"
-                </p>
-            </div>
-
+      <div class="container text-center">
+        <div
+          style="
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #fff0f5;
+            border-radius: 15px;
+          "
+        >
+          <h3 style="font-size: 24px; margin-bottom: 15px">Dress Code</h3>
+          <div
+            id="diamond-icon"
+            style="
+              font-size: 48px;
+              margin: 15px 0;
+              cursor: pointer;
+              transition:
+                transform 0.3s ease,
+                text-shadow 0.3s ease;
+            "
+            onmouseover="
+              this.style.transform = 'scale(1.3) rotate(15deg)';
+              this.style.textShadow = '0 0 20px rgba(255, 20, 147, 0.8)';
+            "
+            onmouseout="
+              this.style.transform = 'scale(1) rotate(0deg)';
+              this.style.textShadow = 'none';
+            "
+          >
+            💎
+          </div>
+          <p style="font-size: 18px; color: #333; font-style: italic">
+            "El bordo y sus derivados se reserva para la cumpleañera"
+          </p>
         </div>
+      </div>
     </section>
 
     <!-- REGALOS -->
     <section id="regalos">
-        <div class="container text-center">
+      <div class="container text-center">
+        <h2>Regalos</h2>
 
-            <h2>Regalos</h2>
+        <p>
+          Si deseas hacerme un regalo, puedes hacerlo a través del siguiente QR.
+        </p>
 
-            <p>Si deseas hacerme un regalo, puedes hacerlo a través del siguiente QR.</p>
-
-            <img src="img/qr.png" alt="QR de regalos">
-
-        </div>
+        <img src="img/qr.png" alt="QR de regalos" />
+      </div>
     </section>
 
     <!-- CONFIRMACIÓN -->
     <section id="evento">
-        <div class="container">
-            <h2>Confirmación de Asistencia</h2>
-            
-            <form id="rsvpForm">
-                <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre y Apellido</label>
-                    <input 
-                        type="text" 
-                        id="nombre" 
-                        class="form-control"
-                        name="nombre" 
-                        placeholder="Tu nombre" 
-                        required
-                    >
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input 
-                        type="email" 
-                        id="email" 
-                        class="form-control"
-                        name="email" 
-                        placeholder="Tu email" 
-                        required
-                    >
-                </div>
-                <input type="hidden" name="_captcha" value="false">
-                <button type="submit" class="btn btn-primary">Confirmar Asistencia</button>
-            </form>
-            <p id="mensaje" style="margin-top: 15px;"></p>
-        </div>
+      <div class="container">
+        <h2>Confirmación de Asistencia</h2>
+
+        <form id="rsvpForm">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre y Apellido</label>
+            <input
+              type="text"
+              id="nombre"
+              class="form-control"
+              name="nombre"
+              placeholder="Tu nombre"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              name="email"
+              placeholder="Tu email"
+              required
+            />
+          </div>
+          <input type="hidden" name="_captcha" value="false" />
+          <button type="submit" class="btn btn-primary">
+            Confirmar Asistencia
+          </button>
+        </form>
+        <p id="mensaje" style="margin-top: 15px"></p>
+      </div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="text-center" style="padding: 30px 0; margin-top: 40px;">
-        <p style="font-size: 24px; font-weight: bold; color: #333;">Te espero 
-            <span id="footer-icon" style="font-size: 28px; margin-left: 5px;">💕</span>
-        </p>
-        <p style="font-size: 18px; color: #ff1493; font-style: italic;">Jazmin</p>
+    <footer class="text-center" style="padding: 30px 0; margin-top: 40px">
+      <p style="font-size: 24px; font-weight: bold; color: #333">
+        Te espero
+        <span id="footer-icon" style="font-size: 28px; margin-left: 5px"
+          >💕</span
+        >
+      </p>
+      <p style="font-size: 18px; color: #ff1493; font-style: italic">Jazmin</p>
     </footer>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script> 
 
     <!-- Scripts propios -->
     <script src="js/script.js"></script>
     <script src="js/time.js"></script>
     <script src="js/email.js"></script>
-
-</body>
-
+  </body>
 </html>

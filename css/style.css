@@ -119,6 +119,15 @@ section h2{
     text-transform:uppercase;
 }
 
+@media (max-width: 480px) {
+  #contador div[id] {
+    font-size: 28px !important;
+  }
+  #contador span {
+    font-size: 12px !important;
+  }
+}
+
 /* UBICACIÓN */
 
 #ubicacion{
