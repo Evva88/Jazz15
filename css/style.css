@@ -101,32 +101,49 @@ section h2{
 /* CONTADOR */
 
 #contador{
-    background:white;
+    background: white;
+    padding: 40px 0;
 }
 
-#contador .col{
-    padding:20px;
+.contador-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 10px;
 }
 
-#contador .col div{
-    font-size:3rem;
-    font-weight:700;
-    color:#d4af37;
+.contador-item{
+    flex: 1 1 0;
+    max-width: 90px;
+    background: #ff1493;
+    color: white;
+    border-radius: 12px;
+    padding: 12px 4px;
+    text-align: center;
 }
 
-#contador span{
-    font-size:1rem;
-    text-transform:uppercase;
+.contador-numero{
+    font-size: clamp(1.4rem, 6vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1;
 }
 
-@media (max-width: 480px) {
+.contador-label{
+    font-size: clamp(0.6rem, 2.5vw, 0.85rem);
+    text-transform: uppercase;
+    margin-top: 6px;
+    letter-spacing: .5px;
+}
+
+/*@media (max-width: 480px) {
   #contador div[id] {
     font-size: 28px !important;
   }
   #contador span {
     font-size: 12px !important;
   }
-}
+} */
 
 /* UBICACIÓN */
 
