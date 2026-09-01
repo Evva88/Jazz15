@@ -10,7 +10,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,9 +24,12 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -72,15 +78,51 @@
   <i class="bi bi-disc icono-latido" style="font-size: 2.5rem; color: #770309; margin: 0 15px;"></i>
 </div> -->
 
-
     <!-- PANTALLA DE BIENVENIDA -->
-<div id="overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background-color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 9999; text-align: center;">
-  <h1 style="color: #770309; font-family: 'Allura', cursive; font-size: 60px;">Mis 15 Jazmin</h1>
-  <p style="font-size: 18px; color: #333; margin-bottom: 20px;">Quiero que seas parte de este momento tan importante para mí</p>
-  <button id="btnIngresar" style="padding: 12px 30px; background-color: #770309; color: #fff; border: none; border-radius: 25px; font-size: 18px; cursor: pointer;">
-    INGRESAR
-  </button>
-</div>
+    <div
+      id="overlay"
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        text-align: center;
+      "
+    >
+      <h1
+        style="
+          color: #770309;
+          font-family: &quot;Allura&quot;, cursive;
+          font-size: 60px;
+        "
+      >
+        Mis 15 Jazmin
+      </h1>
+      <p style="font-size: 18px; color: #333; margin-bottom: 20px">
+        Quiero que seas parte de este momento tan importante para mí
+      </p>
+      <button
+        id="btnIngresar"
+        style="
+          padding: 12px 30px;
+          background-color: #770309;
+          color: #fff;
+          border: none;
+          border-radius: 25px;
+          font-size: 18px;
+          cursor: pointer;
+        "
+      >
+        INGRESAR
+      </button>
+    </div>
 
     <!-- PRESENTACIÓN -->
     <section id="hero">
@@ -91,7 +133,7 @@
             font-weight: bold;
             color: #333;
             margin-bottom: 10px;
-            font-family: '', ;
+            font-family: &quot;&quot;;
           "
         >
           MIS 15
@@ -103,7 +145,7 @@
             font-weight: bold;
             color: #770309;
             margin-bottom: 30px;
-            font-family: 'Allura', cursive;
+            font-family: &quot;Allura&quot;, cursive;
           "
         >
           Jazmin
@@ -119,32 +161,37 @@
 
     <!-- CUENTA REGRESIVA -->
 
-<section id="contador">
-  <div class="contador-wrapper">
-    <div class="contador-item">
-      <div class="contador-numero" id="dias">00</div>
-      <div class="contador-label">Días</div>
-    </div>
-    <div class="contador-item">
-      <div class="contador-numero" id="horas">00</div>
-      <div class="contador-label">Horas</div>
-    </div>
-    <div class="contador-item">
-      <div class="contador-numero" id="minutos">00</div>
-      <div class="contador-label">Minutos</div>
-    </div>
-    <div class="contador-item">
-      <div class="contador-numero" id="segundos">00</div>
-      <div class="contador-label">Segundos</div>
-    </div>
-  </div>
-</section>
+    <section id="contador">
+      <div class="contador-wrapper">
+        <div class="contador-item">
+          <div class="contador-numero" id="dias">00</div>
+          <div class="contador-label">Días</div>
+        </div>
+        <div class="contador-item">
+          <div class="contador-numero" id="horas">00</div>
+          <div class="contador-label">Horas</div>
+        </div>
+        <div class="contador-item">
+          <div class="contador-numero" id="minutos">00</div>
+          <div class="contador-label">Minutos</div>
+        </div>
+        <div class="contador-item">
+          <div class="contador-numero" id="segundos">00</div>
+          <div class="contador-label">Segundos</div>
+        </div>
+      </div>
+    </section>
 
     <!-- FECHA Y HORA -->
     <section id="fecha-hora">
       <div class="container text-center">
         <div style="margin: 40px 0">
-          <div style="font-size: 48px; margin-bottom: 15px"> <i class="bi bi-calendar-event icono-animado" style="font-size: 2.5rem; color: #770309; margin: 0 15px;"></i></div>
+          <div style="font-size: 48px; margin-bottom: 15px">
+            <i
+              class="bi bi-calendar-event icono-animado"
+              style="font-size: 2.5rem; color: #770309; margin: 0 15px"
+            ></i>
+          </div>
           <h3
             style="
               font-size: 28px;
@@ -156,19 +203,20 @@
             26 de Septiembre 2026
           </h3>
           <p style="font-size: 20px; color: #666; margin: 0">
-             De 13:00 a 20:00 hs
+            De 13:00 a 20:00 hs
           </p>
         </div>
       </div>
     </section>
 
-
-
     <!-- UBICACIÓN -->
     <section id="ubicacion">
       <div class="container text-center">
         <div style="margin: 40px 0">
-                <i class="bi bi-geo-alt icono-animado" style="font-size: 2.5rem; color: #770309; margin: 0 15px;"></i>
+          <i
+            class="bi bi-geo-alt icono-animado"
+            style="font-size: 2.5rem; color: #770309; margin: 0 15px"
+          ></i>
 
           <h3 style="font-size: 24px; margin-bottom: 15px">Ubicación</h3>
           <p style="font-size: 18px; margin: 5px 0">Clahe Eventos Lomas</p>
@@ -191,7 +239,7 @@
               font-size: 16px;
             "
           >
- Ver en Mapa
+            Ver en Mapa
           </a>
         </div>
       </div>
@@ -208,7 +256,6 @@
             border-radius: 15px;
           "
         >
-         
           <div
             id="diamond-icon"
             style="
@@ -228,21 +275,26 @@
               this.style.textShadow = 'none';
             "
           >
-            <i class="bi bi-stars icono-latido" style="font-size: 2.5rem; color: #770309; margin: 0 15px;"></i>
-  </div>
+            <i
+              class="bi bi-stars icono-latido"
+              style="font-size: 2.5rem; color: #770309; margin: 0 15px"
+            ></i>
           </div>
-           <h3 style="font-size: 24px; margin-bottom: 15px">Dress Code</h3>
-          <p style="font-size: 18px; color: #333; font-style: italic">
-            "El bordo y sus derivados se reserva para la cumpleañera"
-          </p>
         </div>
+        <h3 style="font-size: 24px; margin-bottom: 15px">Dress Code</h3>
+        <p style="font-size: 18px; color: #333; font-style: italic">
+          El bordo y sus derivados se reserva para la cumpleañera
+        </p>
       </div>
     </section>
 
     <!-- REGALOS -->
     <section id="regalos">
       <div class="container text-center">
-        <i class="bi bi-gift icono-animado" style="font-size: 2.5rem; color: #770309; margin: 0 15px;"></i>
+        <i
+          class="bi bi-gift icono-animado"
+          style="font-size: 2.5rem; color: #770309; margin: 0 15px"
+        ></i>
         <h2>Regalos</h2>
 
         <p>
@@ -254,44 +306,70 @@
     </section>
 
     <!-- CARRUSEL DE FOTOS -->
-<section id="carrusel-fotos">
-  <div class="container text-center">
-    <h2>Momentos</h2>
+    <section id="carrusel-fotos">
+      <div class="container text-center">
+        <h2>Momentos</h2>
 
-    <div id="carouselJazmin" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/foto1.jpg" class="d-block mx-auto" alt="Foto 1">
+        <div id="carouselJazmin" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/foto1.jpg" class="d-block mx-auto" alt="Foto 1" />
+            </div>
+            <div class="carousel-item">
+              <img src="img/foto2.jpg" class="d-block mx-auto" alt="Foto 2" />
+            </div>
+            <div class="carousel-item">
+              <img src="img/foto3.jpg" class="d-block mx-auto" alt="Foto 3" />
+            </div>
+            <!-- Agregá más <div class="carousel-item">...</div> según cuántas fotos tengas -->
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselJazmin"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselJazmin"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselJazmin"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselJazmin"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselJazmin"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/foto2.jpg" class="d-block mx-auto" alt="Foto 2">
-        </div>
-        <div class="carousel-item">
-          <img src="img/foto3.jpg" class="d-block mx-auto" alt="Foto 3">
-        </div>
-        <!-- Agregá más <div class="carousel-item">...</div> según cuántas fotos tengas -->
       </div>
-
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselJazmin" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselJazmin" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </button>
-
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselJazmin" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#carouselJazmin" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#carouselJazmin" data-bs-slide-to="2"></button>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- CONFIRMACIÓN -->
     <section id="evento">
       <div class="container text-center">
-        <i class="bi bi-envelope-check icono-animado" style="font-size: 2.5rem; color: #770309; margin: 0 15px;"></i>
+        <i
+          class="bi bi-envelope-check icono-animado"
+          style="font-size: 2.5rem; color: #770309; margin: 0 15px"
+        ></i>
         <h2>Confirmación de Asistencia</h2>
 
         <form id="rsvpForm">
@@ -318,8 +396,8 @@
             />
           </div>
           <input type="hidden" name="_captcha" value="false" />
-          <button type="submit" class="btn btn-primary">
-            Confirmar Asistencia
+          <button type="submit" class="btn btn-bordo icono-latido">
+            <i class="bi bi-envelope-check me-2"></i> Confirmar Asistencia
           </button>
         </form>
         <p id="mensaje" style="margin-top: 15px"></p>
@@ -328,26 +406,33 @@
 
     <!-- FOOTER -->
     <footer class="text-center" style="padding: 30px 0; margin-top: 40px">
-      <p style="font-size: 24px; font-weight: bold; color: #333">
+      <p style="font-size: 24px; font-weight: bold; color: #d8abad">
         Te espero
         <span id="footer-icon" style="font-size: 28px; margin-left: 5px"
-          >💕</span
+          ></span
         >
       </p>
       <p style="font-size: 18px; color: #770309; font-style: italic">Jazmin</p>
     </footer>
 
     <!-- MÚSICA DE FONDO -->
-<audio id="musicaFondo" loop autoplay>
-  <source src="audio/Bruno_Mars_-_24Magic_(mp3.pm).mp3" type="audio/mpeg">
-</audio>
+    <audio id="musicaFondo" loop autoplay>
+      <source src="audio/Bruno_Mars_-_24Magic_(mp3.pm).mp3" type="audio/mpeg" />
+    </audio>
 
-<button id="btnMusica" class="icono-latido" style="border: none; background: transparent; cursor: pointer;">
-  <i class="bi bi-music-note-beamed" style="font-size: 2rem; color: #770309;"></i>
-</button>
+    <button
+      id="btnMusica"
+      class="icono-latido"
+      style="border: none; background: transparent; cursor: pointer"
+    >
+      <i
+        class="bi bi-music-note-beamed"
+        style="font-size: 2rem; color: #770309"
+      ></i>
+    </button>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Scripts propios -->
     <script src="js/script.js"></script>
